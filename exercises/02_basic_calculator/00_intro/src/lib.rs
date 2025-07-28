@@ -1,5 +1,5 @@
 fn intro() -> &'static str {
-    // TODO: fix me 👇
+    // TODO: fix me 
     "I'm ready to build a calculator in Rust!"
 }
 
