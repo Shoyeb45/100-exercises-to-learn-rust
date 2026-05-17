@@ -1,6 +1,11 @@
 // TODO: Define a function named `squared` that raises all `i32`s within a slice to the power of 2.
 //  The slice should be modified in place.
 
+fn squared(arr: &mut [i32]) {
+    for i in 0..arr.len() {
+        arr[i] = arr[i] * arr[i];
+    }   
+} 
 #[cfg(test)]
 mod tests {
     use super::*;
